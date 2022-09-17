@@ -46,8 +46,8 @@ body {
 }
 
 .card {
-  width: 20.375rem;
-  height: 23.375rem;
+  width: 326px;
+  height: 374px;
   background: #FFFFFF;
   box-shadow: 0px 50px 100px -20px hsla(196.7, 84.3%, 20%, 0.5);
   border-radius: 15px;
@@ -92,7 +92,6 @@ body {
   color: hsl(227, 9.7%, 46.5%);
 }
 
-
 .card-stats {
   display: flex;
   justify-content: space-around;
@@ -116,4 +115,17 @@ body {
   text-align: center;
   letter-spacing: 1.5px;
   color: hsl(227, 9.7%, 46.5%);
+}
+
+@media (min-width: 1440px) {
+
+  body {
+    background: url(../images/bg-pattern-top.svg) no-repeat top -31.75rem left -17.6875rem/61.125rem, url(../images/bg-pattern-bottom.svg) no-repeat bottom -39.5rem right -15.75rem/61.125rem;
+  }
+
+  .card,
+  .card-header {
+    width: 350px;
+  }
+
 }
